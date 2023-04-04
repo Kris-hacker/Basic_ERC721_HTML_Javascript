@@ -486,12 +486,6 @@ async function getNft(){
         console.log("===");
         
 
-        console.log("token ID:", nft.id.tokenId);
-        console.log("create date:", nft.timeLastUpdated);
-        console.log("contract address:", nft.contract.address);
-        console.log("contract symbol:", nft.contractMetadata.symbol);
-        console.log("token type:", nft.contractMetadata.tokenType);
-
         rs += `
         
                 <div class="w3-five w3-border" style="padding:20px;">
